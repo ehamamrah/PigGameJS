@@ -69,7 +69,7 @@ function initialDiceGame(){
   scoresList     = [0, 0];
   roundScore     = 0;
   activePlayer   = 0;
-  winningValue   = 20;
+  winningValue   = prompt('Set Winning Scrore');
   effectiveCells = ['current-0', 'current-1', 'score-0', 'score-1'];
   diceIsRolling  = true;
 
